@@ -1,0 +1,29 @@
+html, body{
+  margin: 0px;
+  padding: 0px;
+}
+
+#camera, #camera-view, #camera-device, #photo-display{
+    position: fixed; /* Position of element is relative to the viewport */
+    object-fit: contain; /* The content is scaled to maintain its aspect ratio while fitting within the element's content box */
+    height: 100%;
+    width: 100%;
+}
+
+#take-photo-button{
+    position:fixed;
+    bottom:30px;
+    width:100%;
+}
+
+#front-camera-button{
+    position:fixed;
+    bottom:80px;
+    width:100%;
+}
+
+.photo-taken{
+    height:100px !important;
+    width:100px !important;
+}
+
